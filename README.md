@@ -1,19 +1,27 @@
-# Primo_PreInterview
+# Primo assignment
 
-# Install for Test
-Install TypeScript, Jest for unit testing :
-npm install typescript ts-jest jest @types/jest --save-dev
+## Install for Test
+1. Install TypeScript, Jest for unit testing :
+    ```bash
+    npm install typescript ts-jest jest @types/jest --save-dev
+    ```
+3. Generate a tsconfig.json file for TypeScript :
+   ```bash
+    npx tsc --init
+   ```
+5. Generate a Jest configuration file :
+   ```bash
+   npx ts-jest config:init
+   ```
 
-Generate a tsconfig.json file for TypeScript :
-npx tsc --init
-
-Generate a Jest configuration file :
-npx ts-jest config:init
-
-Update the scripts section in package.json :
-"scripts": {
+7. Update the scripts section in package.json :
+   ```bash
+   "scripts": {
     "test": "jest"
-}
+    }
+   ```
 
 # Run Test
-npm test
+    ```bash
+    npm test
+    ```
